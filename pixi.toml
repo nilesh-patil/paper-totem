@@ -1,0 +1,17 @@
+[workspace]
+authors = ["Nilesh <nilesh.patil@dream11.com>"]
+channels = ["conda-forge"]
+name = "paper-totem"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.5,<3.14"
+
+[pypi-dependencies]
+torch = ">=2.8.0, <3"
+pandas = ">=2.3.1, <3"
+scikit-learn = ">=1.7.1, <2"
+xarray = ">=2025.7.1, <2026"
